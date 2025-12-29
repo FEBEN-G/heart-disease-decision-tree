@@ -26,6 +26,8 @@ heart-disease-decision-tree/
 │   ├── model/
 │   │   └── decision_tree_model.joblib # Serialized Scikit-Learn pipeline
 │   └── requirements.txt              # Backend dependencies
+├── data/                             # Raw Dataset folder (Gitignored)
+│   └── heart.csv                     # 303 feature records
 ├── frontend/
 │   ├── src/                          # React components (App.jsx, index.css)
 │   ├── package.json                  # Frontend dependencies

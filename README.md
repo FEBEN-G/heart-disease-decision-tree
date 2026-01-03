@@ -7,6 +7,9 @@
 
 Heart Guard AI is a full-stack Machine Learning application designed to predict the likelihood of heart disease in patients based on 13 clinical features. It features a robust FastAPI backend serving a Decision Tree model and a modern, high-contrast React frontend for clinical use.
 
+> [!TIP]
+> **Looking to deploy?** See our [Deployment Guide](DEPLOYMENT_GUIDE.md) for step-by-step instructions on going live.
+
 ## 🌟 Features
 
 - **Decision Tree ML Pipeline**: Cleanly separated training logic with data scaling and automated export.

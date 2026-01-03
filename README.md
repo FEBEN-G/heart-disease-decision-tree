@@ -79,8 +79,3 @@ npm run dev
 The model uses 13 clinical features:
 - `age`, `sex`, `cp` (chest pain), `trestbps`, `chol`, `fbs`, `restecg`, `thalach`, `exang`, `oldpeak`, `slope`, `ca`, `thal`.
 
-## 📜 License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-Developed by [FEBEN-G](https://github.com/FEBEN-G)

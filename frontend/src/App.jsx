@@ -3,7 +3,7 @@ import axios from 'axios';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Activity, Beaker, Heart, AlertCircle, CheckCircle2, ChevronRight, Info } from 'lucide-react';
 
-const API_URL = 'http://localhost:8000/predict';
+const API_URL = import.meta.env.VITE_API_URL || 'https://heart-disease-decision-tree.onrender.com/predict';
 
 const inputFields = [
   { name: 'age', label: 'Age', type: 'number', placeholder: 'e.g. 45' },

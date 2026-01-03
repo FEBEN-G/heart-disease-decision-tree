@@ -5,10 +5,7 @@
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Scikit-Learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)](https://scikit-learn.org/)
 
-Heart Guard AI is a full-stack Machine Learning application designed to predict the likelihood of heart disease in patients based on 13 clinical features. It features a robust FastAPI backend serving a Decision Tree model and a modern, high-contrast React frontend for clinical use.
-
-> [!TIP]
-> **Looking to deploy?** See our [Deployment Guide](DEPLOYMENT_GUIDE.md) for step-by-step instructions on going live.
+Heart Guard AI is a professional full-stack Machine Learning application that predicts heart disease risk using clinical parameters. It features a high-performance FastAPI backend serving a Decision Tree model and a high-contrast React frontend designed for clinical accuracy and ease of use.
 
 ## 🌟 Features
 
@@ -35,7 +32,6 @@ heart-disease-decision-tree/
 │   ├── src/                          # React components (App.jsx, index.css)
 │   ├── package.json                  # Frontend dependencies
 │   └── vite.config.js                # Vite configuration
-├── heart.csv                         # Raw Dataset (303 records)
 ├── start.sh                          # One-click startup script for local dev
 └── README.md                         # Professional documentation
 ```
